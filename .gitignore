@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# uv / venv
+.venv/
+
+# Build artifacts
+*.egg-info/
+build/
+dist/
+
+# macOS
+.DS_Store
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Runtime artifacts
+sessions/
+
+# Smoke-test outputs (regeneratable, not project state)
+smoke-test.json
+bench-results.md
