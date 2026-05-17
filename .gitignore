@@ -26,3 +26,9 @@ sessions/
 # Smoke-test outputs (regeneratable, not project state)
 smoke-test.json
 bench-results.md
+
+# Skill installs (mattpocock/skills via skills.sh) — dev tooling, reinstall with:
+#   npx skills@latest add mattpocock/skills
+.agents/
+.claude/skills/
+skills-lock.json
